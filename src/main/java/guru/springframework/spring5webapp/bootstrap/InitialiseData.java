@@ -54,7 +54,7 @@ public void run(String... args) throws Exception {
 
 
 
-	System.out.println("Started in InitialiseData");
+	System.out.println("\n\n+++++++++++++++++++++++++++++++++++++++++++++\nStarted in InitialiseData");
 	System.out.println("Number of Books " + bookRepository.count());
 	System.out.println("Number of Authors " + authorRepository.count());
 	System.out.println("Number of Publishers " + publisherRepository.count());

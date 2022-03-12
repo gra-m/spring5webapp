@@ -1,7 +1,7 @@
 package guru.springframework.spring5webapp.controllers;
 
 
-import fun.madeby.spring5WebApp.repositories.AuthorRepository;
+import guru.springframework.spring5webapp.repositories.AuthorRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,10 +15,10 @@ public class AuthorController {
 		this.authorRepository = authorRepository;
 	}
 
-	@RequestMapping("/authors")
+	@RequestMapping("/author")
 	public String getAuthors(Model model){
 		model.addAttribute("authors", authorRepository.findAll());
-		return "authors/list";
+		return "author/list";
 
 	}
 
