@@ -1,11 +1,12 @@
-package fun.madeby.spring5WebApp.bootstrap;
+package guru.springframework.spring5webapp.bootstrap;
 
-import fun.madeby.spring5WebApp.model.Author;
-import fun.madeby.spring5WebApp.model.Book;
-import fun.madeby.spring5WebApp.model.Publisher;
-import fun.madeby.spring5WebApp.repositories.AuthorRepository;
-import fun.madeby.spring5WebApp.repositories.BookRepository;
-import fun.madeby.spring5WebApp.repositories.PublisherRepository;
+
+import guru.springframework.spring5webapp.model.Author;
+import guru.springframework.spring5webapp.model.Book;
+import guru.springframework.spring5webapp.model.Publisher;
+import guru.springframework.spring5webapp.repositories.AuthorRepository;
+import guru.springframework.spring5webapp.repositories.BookRepository;
+import guru.springframework.spring5webapp.repositories.PublisherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

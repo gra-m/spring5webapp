@@ -1,4 +1,4 @@
-package fun.madeby.spring5WebApp.controllers;
+package guru.springframework.spring5webapp.controllers;
 
 
 import fun.madeby.spring5WebApp.repositories.AuthorRepository;

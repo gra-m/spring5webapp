@@ -1,6 +1,6 @@
-package fun.madeby.spring5WebApp.repositories;
+package guru.springframework.spring5webapp.repositories;
 
-import fun.madeby.spring5WebApp.model.Publisher;
+import guru.springframework.spring5webapp.model.Publisher;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PublisherRepository extends CrudRepository<Publisher, Long> {
